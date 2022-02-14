@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'barlow';
+    color: #3b65f0;
+}
+
+nav{
+display: flex;
+gap: 3em;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'barlow';
+    color: #aa1f0c;
+}
+
+a.nav-active{
+    text-decoration-line: underline;
+    color: #3b65f0;
+    font-size: 3rem;
+}
+
+
+@media screen and (max-width:800px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 4em;
+    }
+}

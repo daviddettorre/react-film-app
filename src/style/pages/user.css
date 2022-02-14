@@ -1,0 +1,15 @@
+.filmfavori>h2{
+    font-size: 2.5rem;
+    margin-left: 2em;
+    border: solid 2px #BB1D80;
+    width: fit-content;
+    padding: 0.5em;
+    color: #BB1D80;
+    font-weight: lighter;
+    border-radius: .15em;
+}
+
+.favori{
+    width: fit-content;
+    cursor: pointer;
+}
